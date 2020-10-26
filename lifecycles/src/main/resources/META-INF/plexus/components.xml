@@ -39,7 +39,7 @@
 
         <!-- resource module -->
         <component>
-            <role>org.apache.maven.lifecycle,mapping.LifecycleMapping</role>
+            <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
             <role-hint>resources-module</role-hint>
             <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
             <configuration>
@@ -111,7 +111,7 @@
 
         <!-- jar module -->
         <component>
-            <role>org.apacha.maven.lifecycle.mapping.LifecycleMapping</role>
+            <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
             <role-hint>java-module</role-hint>
             <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
             <configuration>
@@ -158,7 +158,7 @@
 
         <!-- java archive -->
         <component>
-            <role>org.apacha.maven.lifecycle.mapping.LifecycleMapping</role>
+            <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
             <role-hint>java-archive</role-hint>
             <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
             <configuration>

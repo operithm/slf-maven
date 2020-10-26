@@ -207,7 +207,7 @@
         </pluginManagement>
         <plugins>
             <plugin>
-                <groupId>com.myphr.msf.maven</groupId>
+                <groupId>com.operithm.slf.maven</groupId>
                 <artifactId>mvn-lifecycles</artifactId>
                 <version>${project.version}</version>
                 <extensions>true</extensions>
